@@ -21,23 +21,6 @@ return {
       servers = {
         -- add gdscript to lspconfig
         gdscript = {},
-        -- disable linters and formatters for python
-        pylsp = {
-          settings = {
-            pylsp = {
-              plugins = {
-                mccabe = { enabled = false },
-                autopep8 = { enabled = false },
-                flake8 = { enabled = false },
-                pycodestyle = { enabled = false },
-                pydocstyle = { enabled = false },
-                pyflakes = { enabled = false },
-                pylint = { enabled = false },
-                yapf = { enabled = false },
-              },
-            },
-          },
-        },
       },
     },
   },
