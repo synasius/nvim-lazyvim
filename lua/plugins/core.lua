@@ -31,6 +31,7 @@ return {
     opts = {
       ensure_installed = {
         "sql",
+        "just",
       },
     },
   },
