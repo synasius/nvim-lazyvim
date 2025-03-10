@@ -1,9 +1,11 @@
 return {
+  { "dracula/vim" },
+
   -- Set colorscheme to catppuccin
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "dracula",
     },
   },
 
